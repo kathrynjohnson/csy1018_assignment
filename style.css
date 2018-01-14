@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+  background-color: #7FFFD4
+}
+ul {
+  text-align: center;
+} /*this part of code was taken from MrPirrera on CodePen.io*/
+
+nav ul li {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  display: inline-grid;
+} /*this part of code was taken from MrPirrera on CodePen.io*/
+
+nav ul li a {
+  padding: 16px;
+  font-size: 20px;
+  font-family: 'Macondo', cursive;";
+  text-transform:uppercase;
+  text-decoration: none; 
+} /*this part of code was taken from MrPirrera on CodePen.io*/
+
+li a:hover {
+  color:#700;
+}
+
+.index a {
+  font-weight: bold;
+  color: black;
+  font-family: 'Macondo', cursive;";
+}
+
+p {
+  font-size: 20px;
+  text-align: left
+}
+
+section2{
+  font-size:20px;
+  width:50%;
+  height:500px;
+  float:left;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+section3 {
+  font-size:20px;
+  width:50%;
+  height:500px;
+  float: right;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+section {
+  border: 1px solid black;
+  text-align:center;
+  font-family: 'Anton', sans-serif;
+}
+
+img {
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 50%
+}
+
+.footer {
+  padding: 1em;
+  text-align: center
+}
+.footer2{
+  font-size:18px;
+  text-align: center;
+  float:left;
+}
+.footer3{
+    font-size:18px;
+    text-align: center;
+    float:right;
+}
+.list{
+  text-align:left;
+}
+video {
+  width: 100%;
+  max-width: 100%;
+  height:auto;
+}
+.glossary{
+  font-size: 30px;
+}
+@media screen{
+  background-color:blue; 
+}
+section4{
+  font-size:20px;
+  width:50%;
+  height:500px;
+  float:left;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+section5{
+  font-size:20px;
+  width:50%;
+  height:500px;
+  float:right;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
