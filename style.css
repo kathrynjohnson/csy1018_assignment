@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-html {
-  background-color: #7FFFD4
+body {
+  background-color: #7FFFD4;
+  margin: 10px;
 }
 ul {
   text-align: center;
-} /*this part of code was taken from MrPirrera on CodePen.io*/
+} 
 
 nav ul li {
   max-width: 1000px;
@@ -13,15 +14,16 @@ nav ul li {
   padding: 0;
   align-content: center;
   display: inline-grid;
-} /*this part of code was taken from MrPirrera on CodePen.io*/
+  height: 60px;
+} 
 
-nav ul li a {
+nav ul li a{
   padding: 16px;
   font-size: 20px;
-  font-family: 'Macondo', cursive;";
-  text-transform:uppercase;
+  font-family: 'Macondo', cursive;
+  text-transform: uppercase;
   text-decoration: none; 
-} /*this part of code was taken from MrPirrera on CodePen.io*/
+} 
 
 li a:hover {
   color:#700;
@@ -30,18 +32,17 @@ li a:hover {
 .index a {
   font-weight: bold;
   color: black;
-  font-family: 'Macondo', cursive;";
+  font-family: 'Macondo', cursive;
 }
 
 p {
   font-size: 20px;
-  text-align: left
+  text-align: left;
 }
 
 section2{
   font-size:20px;
   width:50%;
-  height:500px;
   float:left;
   text-align: center;
   font-family: 'Lobster', cursive;
@@ -50,7 +51,6 @@ section2{
 section3 {
   font-size:20px;
   width:50%;
-  height:500px;
   float: right;
   text-align: center;
   font-family: 'Lobster', cursive;
@@ -65,12 +65,12 @@ section {
 img {
   display: block;
   margin: 0 auto 0 auto;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
 .footer {
   padding: 1em;
-  text-align: center
+  text-align: center;
 }
 .footer2{
   font-size:18px;
@@ -93,22 +93,20 @@ video {
 .glossary{
   font-size: 30px;
 }
-@media screen{
-  background-color:blue; 
-}
+
 section4{
   font-size:20px;
   width:50%;
-  height:500px;
   float:left;
   text-align: center;
   font-family: 'Lobster', cursive;
 }
-
+.myImage {
+  background-image: url("images/kathryn-was-adorable.jpg");
+}
 section5{
   font-size:20px;
   width:50%;
-  height:500px;
   float:right;
   text-align: center;
   font-family: 'Lobster', cursive;
