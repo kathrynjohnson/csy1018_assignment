@@ -24,7 +24,7 @@ nav ul li a{
   font-family: 'Macondo', cursive;
   text-transform: uppercase;
   text-decoration: none; 
-} 
+}  /*this snippit of code i used from MrPirrea from Codepen. i used it because i liked the layout that he had used. https://codepen.io/pirrera/pen/zapbh?q=navigation+bar&limit=all&type=type-pens*/
 
 li a:hover {
   color:#700;
@@ -47,14 +47,14 @@ section {
   background-color: white;
   margin: 10px;
   border-radius: 5px;
-}
+} /*all of my piece of content have white backgrounds because i think that it stands out more and the colour works well with the lavender background of the body */
 
 section2{
   font-size:20px;
   float:left;
   text-align: center;
   font-family: 'Lobster', cursive;
-  margin: 10px;
+  margin: 10px; /*i have set the margin to 10 pixel so that it has a border around the text*/
   background-color: white;
   border-radius: 5px;
 }
@@ -67,7 +67,7 @@ section3 {
   margin: 10px;
   background-color: white;
   margin 10px;
-  border-radius: 5px;
+  border-radius: 5px; /*i added a border radius so that the boxes were not just square. i think it's easier on the eyes*/
 }
 
 img {
@@ -135,7 +135,7 @@ section5{
 }
 .resource2{
   font-size: 30px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo', sans-serif; 
 }
 .gp{
   font-size: 20px;
@@ -145,7 +145,7 @@ section5{
 }
 .reflections{
   font-size: 20px;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo', sans-serif; /*i really like the arimo font*/
   background-color:white;
   margin: 10px;
 }
